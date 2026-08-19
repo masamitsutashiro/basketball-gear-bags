@@ -87,7 +87,7 @@
 
 
 *,*::before,*::after{box-sizing:border-box}
-html{scroll-behavior:smooth;background:var(--white)}
+html{scroll-behavior:smooth !important;background:var(--white)}
 /* 背景色は .bgFade（固定レイヤー）が受け持つので body は透明にする。
    ベース色は html 側に残してあるので、JS が動かない場合も白地になる。 */
 body{margin:0;font-family:var(--f-body);color:var(--ink);background:transparent;overflow-x:hidden;-webkit-font-smoothing:antialiased}
